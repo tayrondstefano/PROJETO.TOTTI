@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+ background-color: rgb(29, 98, 202);
+ }
+ .navtop{
+     display: flex;
+     width:auto;
+     height: 80px;
+     justify-content: center;
+     background-image: url(https://wallpapercave.com/wp/wp4676582.jpg);
+     background-size: cover;
+     background-color: rgb(29, 98, 202);
+     box-shadow: 5px 5px 50px -19px;
+     border-bottom: outset 2px rgb(29, 98, 202);
+ }
+
+ .imgp{
+     width: 50px;
+     height: 50px;
+     border-radius: 5px;
+     margin-top: 15px;
+     
+ }
+
+ li{
+     float: left;
+ }
+.letra ul{
+    display:block;
+    list-style-type: none;
+    margin-left: 35px;
+    letter-spacing: 1px;
+    padding-left: 2px ;
+    line-height: 75px;
+    text-transform: uppercase;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.letra1{
+    width: auto;
+    margin-left: 18px;
+    text-decoration: none;
+    font-family: 'Otomanopee One', sans-serif;
+    color: aliceblue;
+}
+
+.letra1:hover{
+ color: rgb(202, 204, 207);
+ text-shadow:2px 3px 3px  rgb(8, 8, 8);
+}
+
+.espaciado{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px 3px 7px 6px rgb(0 0 0 / 81%);
+}
+
+.caja--perfil{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+}
+
+.perfil2{
+    display: flex;
+    max-width: max-content;
+    max-height: max-content;
+    position: relative;
+    border-radius: 50%;
+    border: 2px outset rgb(29, 98, 202);
+    box-shadow: 5px 15px 20px -8px;
+}
+
+.redes{
+    display: flex;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    padding-left: 15px;
+}
+
+.redes a:hover{
+    background-color: black;
+    border-radius: 50%;
+}
+.cajaprincipal{
+    display: flex;
+    width: auto;
+    height: 150px;
+    display: flex;
+    position: relative;
+}
+
+.tituloicom{
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5%;
+    color: aliceblue;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.cajaicom{
+    position: relative;
+    padding-top: 3%;
+    width: 50%;
+    margin-top: 15px;
+    bottom: 100px;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content:space-between;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.icom1{
+    margin-left: 2%;
+}
+
+.icom2{
+   margin-top: 12%;
+   margin-left: -6%;
+}
+
+.icom3{
+    margin-top: 22%;
+    margin-left: -4%;
+}
+
+.icom4{
+    margin-top: 18%;
+}
+
+.icom4 p{
+    margin-left: 5px;
+}
+
+.icom5{
+    margin-top: 12%;
+    margin-left: 2%;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.icom5 p{
+    margin-left: 12px;
+}
+
+.icom6{
+    margin-top: 3%;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+
+.icom6 p{
+    margin-left: 30px;
+}
+
+.subicom{
+    display: flex;
+    position: absolute;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.caja1{
+    position: relative;
+    left: 50%;
+    width: 50%;
+    bottom: 170px;
+    height: 100%;
+    display: block;
+}
+
+.subprim{
+    display: block;
+    position: absolute;
+    margin: 15% 15px;
+    text-align: center;
+}
+
+.nome{
+    font-size: 25px;
+    font: 300;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+.sobrenome{
+    font-size: 25px;
+    color: aliceblue;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.especial{
+    font-size: 18px;
+    width: 500px;
+    margin: 15px 75px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.formacion{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-content: center;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 5px 16px 6px rgb(0 0 0 / 81%), 0px -3px 16px 6px rgb(0 0 0 / 81%);
+}
+
+article{
+    margin: 50px auto;
+}
+
+.titulo1{
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+.titulo2{
+    padding-left: 5px;
+    font-size: 25px;
+}
+.p2{
+
+    border-left: 2px ridge rgb(29, 98, 202);
+    padding-left: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.expe .p2 {
+    border-left: 2px ridge aliceblue;
+}
+
+.expe{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.projeto{
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+    background-color: aliceblue;
+    align-content: center;
+    text-align: left;
+    padding: 25px 20% 25px 20%;
+    box-shadow: 0px 5px 16px 6px rgb(0 0 0 / 81%), 0px -2px 16px 6px rgb(0 0 0 / 81%);
+}
+
+.tituloprojeto{
+    display: flex;
+    padding-left: 5px;
+    font-size: 25px;
+    margin-left: 17%;
+    text-transform: capitalize;
+}
+
+.caixa--principal--projeto{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    left: auto;
+}
+
+.caixa1p{
+    display: block;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px 5px 5px;
+    margin: 20px 30px;
+    box-shadow: inset 0 8px 0.1px rgb(29, 98, 202),
+    5px 4px 9px -1px;
+}
+
+.caixa1p:hover{
+    box-shadow: 6px 4px 2em rgb(11, 22, 39);
+}
+
+.caixa2p{
+    display: block;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px 5px 5px;
+    margin: 20px 30px;
+    box-shadow: inset 0 8px 0.1px rgb(29, 98, 202),
+    5px 4px 9px -1px;
+}
+.caixa2p:hover{
+    box-shadow: 6px 4px 2em rgb(11, 22, 39);
+}
+
+.caixa3p{
+    display: block;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px 5px 5px;
+    margin: 20px 30px;
+    box-shadow: inset 0 8px 0.1px rgb(29, 98, 202),
+    5px 4px 9px -1px;
+}
+.caixa3p:hover{
+    box-shadow: 6px 4px 2em rgb(11, 22, 39);
+}
+
+.protitle{
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.paragrafopro{
+    text-align: justify;
+    margin: 0 10px 2px 10px;
+    padding-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.boton-projeto{
+    padding: 7px;
+    margin: 10px 2px 3px 2px;
+    background-color: rgb(29, 98, 202);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 15px;
+    border: none;
+}
+
+.boton-projeto a{
+    color: aliceblue;
+}
+
+.boton{
+    padding: 5px;
+    margin: 10px 2px 3px 2px;
+    background-color: rgb(29, 98, 202);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 12px;
+    border: none;
+}
+
+.caixageneral{
+    width: 60%;
+    height: 100%;
+    margin: 80px 20% 20px 20%;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 30px 1px #000000;
+    border-radius: 5px;
+}
+
+.caixacontato{
+    display: block;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    margin:10px 20% 15px 20%;
+}
+
+.caixacontato h2{
+    color: rgb(17, 17, 17);
+}
+
+.caixacontato p{
+    color: rgb(10, 10, 10);
+    text-transform:capitalize;
+    padding-top: 3px;
+    letter-spacing: 1.5;
+}
+
+.caixaform{
+    display: block;
+    width: auto;
+    height: 100%;
+    margin:10px 20% 15px 20%;
+}
+
+.caixaform label{
+    display: inline-grid;
+    margin: 5px auto;
+    padding: 2px;
+    font-weight: 600;
+}
+
+.caixaform div{
+    display: table-cell;
+    padding: 2px;
+    margin-bottom: -14px;
+}
+
+.caixaform textarea{
+    overflow: scroll;
+    resize: none;
+    border-radius: 6px;
+}
+
+.caixaform button{
+    background-color: aliceblue;
+    color: black;
+    font-weight: 700;
+    width: max-content;
+    height: max-content;
+    margin-top: 5px;
+    padding: 5px 15px;
+    border: 2px;
+    border-radius: 4px;
+}
+
+button:hover{
+    width: min-content;
+    height: min-content;
+    background-color: rgb(29, 98, 202);
+    border: 2px solid rgb(13, 25, 36);
+    color:aliceblue;
+}
+
+footer{
+    width: auto;
+    height: 25px;
+    margin: 15px 40%;
+    text-transform: capitalize;
+}
